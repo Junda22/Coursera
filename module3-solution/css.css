@@ -62,21 +62,21 @@ h1{
 		display:none;
 	}
 	.col-1{
-		width:33%;
+		width:100%;
 	}
 	.col-2{
-		width:33%;
+		width:100%;
 	}
 }
 @media (max-width: 991px) and (min-width: 768px) {
+	.navig{
+		display:none;
+	}
 	.col-1{
 		width:100%;
 	}
 	.col-2{
-		width:50%;
-	}
-	.navig{
-		display:none;
+		width:100%;
 	}
 }
 @media (max-width: 767px) {
